@@ -12,6 +12,7 @@ script = ExtResource("1_3vyb7")
 
 [node name="standing_collider" type="CollisionShape3D" parent="." unique_id=940899538]
 shape = SubResource("CapsuleShape3D_u8vuu")
+debug_color = Color(0, 0.5668184, 0.65989083, 1)
 
 [node name="Head" type="Node3D" parent="." unique_id=37292241]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
@@ -22,9 +23,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
 target_position = Vector3(0, 0, -1.5)
 
 [node name="crouching_collider" type="CollisionShape3D" parent="." unique_id=1535988342]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.3989948, 0)
 shape = SubResource("CapsuleShape3D_3vyb7")
 disabled = true
-debug_color = Color(0.17862105, 2.5798083e-05, 0.69015485, 1)
+debug_color = Color(0.70166576, 0.00012937546, 0.61376464, 1)
 
 [node name="ClearanceCast" type="RayCast3D" parent="." unique_id=1482045692]
 target_position = Vector3(0, 1, 0)
